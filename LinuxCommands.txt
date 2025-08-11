@@ -1,0 +1,63 @@
+
+1. File & Directory Navigation
+$pwd 
+- Shows the current working directory
+
+$ls 
+- Lists files and folders
+
+$ls -l
+- Lists in detailed view (permissions, owner, size, date)
+
+$ls -a
+- Lists all files including hidden ones
+
+$cd [filepath]
+- Changes directory
+
+$cd -
+- 
+Go back to previous directory
+$cd ..
+- Moves one directory up
+
+$cd ../..
+- Moves two level up
+
+$cd ~
+- Goes to home directory
+
+2. File & Directory Management
+$touch [filename]
+- Creates an empty file.
+
+$mkdir [foldername/directoryname]
+- Creates a directory
+
+$cp [srcfile/folder] [destfile/folder]
+- Copies files/folders
+
+$mv [srcfile/folder] [destfile/folder]
+- Moves or renames files/folders
+
+$rm [file]
+- Deletes a file
+
+$rm -r [dir]
+- Deletes a directory with contents
+
+3. Viewing File Content
+$cat [filename]
+- Shows file contents
+
+$less [filename]
+- Views file one screen at a time.
+
+$head [filename]
+- Shows first 10 lines
+
+$tail [filename]
+- Shows last 10 lines
+
+$tail -f [filename]
+- Monitors file in real-time
