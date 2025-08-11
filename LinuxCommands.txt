@@ -12,6 +12,12 @@ $ls -l
 $ls -a
 - Lists all files including hidden ones
 
+$ls -lart
+- lists all files (including hidden ones) in detailed view, sorted by modification time, but in reverse order — meaning oldest files first, newest last.
+
+$ls -ltr
+- It lists files in detailed view, sorted by oldest to newest modification time.
+
 $cd [filepath]
 - Changes directory
 
