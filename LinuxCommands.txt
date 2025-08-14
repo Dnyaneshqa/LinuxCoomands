@@ -40,6 +40,9 @@ $touch [filename]
 $mkdir [foldername/directoryname]
 - Creates a directory
 
+$mkdir -p
+- if devops doesn’t exist, it will be created. If it already exists, nothing changes and no error is shown.
+
 $cp [srcfile/folder] [destfile/folder]
 - Copies files/folders
 
