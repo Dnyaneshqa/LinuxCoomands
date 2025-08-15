@@ -1,0 +1,35 @@
+
+ls
+ls -l
+cd
+cd ..
+cd [folder/filepath]
+pwd
+mkdir
+touch
+rm
+rm -r
+rm -v
+rmdir
+clear
+cat
+zcat - show zip file
+echo "Hello dosto"
+echo "Hello dosto" > [filename]
+head [filename]
+tail [filename]
+tail -f [filename]
+less [filename]
+more [filename]
+cp
+cp -r
+mv
+wc
+ln
+ln -s
+cut
+echo "hello" | tee hello.txt
+diff
+vi
+vim
+nano
