@@ -96,3 +96,14 @@ rw- 600
 r-x 500
 --x 100
 -wx 300
+
+file permisson commands
+chmod
+umaks
+ls -l
+sudo chowm usename filename=>change ownership
+sudo chgrp groupname filename
+zip
+unzip
+tar
+untar
