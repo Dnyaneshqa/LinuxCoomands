@@ -47,3 +47,52 @@ free -h
 nohub*
 head -n 5 [Filename]
 vmstat
+
+System-level commands
+uname
+who
+whoami
+which
+sudo
+sudo shutdown
+sudo reboot
+apt list
+apt update
+apt-get install docker.io
+apt remove docker.io
+which docker
+
+User & Group management commands
+sudo useradd -m [username]
+sudo passwd [username]
+su [username]
+exit
+cd /etc/passwd
+sudo userdel [username]
+sudo groupadd [groupname]
+cat /etc/group
+sudo gpasswd -a [username] [groupname]
+sudo gpasswd -M [username],[username] [groupname]
+sudo groupdel [groupname]
+cat /etc/group
+
+
+
+0 - - - 0 0 0
+1 - - x 0 0 1
+2 - w - 0 1 0
+3 - w x 0 1 1
+4 r - - 1 0 0
+5 r - x 1 0 1
+6 r w - 1 1 0
+7 r w x 1 1 1
+
+
+
+rwx 777
+r-- 400
+-w- 200
+rw- 600
+r-x 500
+--x 100
+-wx 300
