@@ -1,0 +1,92 @@
+File & Directory Management
+ls              # list files
+ls -l           # list with details
+cd              # change directory
+cd ..           # go back
+cd [path]       # move to specific path
+pwd             # print working directory
+mkdir [dir]     # make directory
+touch [file]    # create empty file
+rm [file]       # remove file
+rm -r [dir]     # remove directory recursively
+rm -v [file]    # verbose remove
+rmdir [dir]     # remove empty directory
+clear           # clear terminal
+
+File Operations & Viewing
+cat [file]              # view file content
+zcat [file.gz]          # view zipped file
+echo "Hello dosto"      # print text
+echo "Hello dosto" > f  # write to file
+head [file]             # first 10 lines
+head -n 5 [file]        # first 5 lines
+tail [file]             # last 10 lines
+tail -f [file]          # live logs
+less [file]             # view with scroll
+more [file]             # view file
+cp [src] [dest]         # copy file
+cp -r [src] [dest]      # copy directory
+mv [src] [dest]         # move/rename
+wc [file]               # word/line count
+cut -d ' ' -f1 [file]   # cut specific field
+echo "hello" | tee f    # write & display
+diff file1 file2        # compare files
+
+File Editing
+vi [file]
+vim [file]
+nano [file]
+
+System Monitoring & Process Management
+ssh user@host        # remote login
+df                   # disk usage
+df -h                # disk usage (human)
+du .                 # folder usage
+ps                   # process status
+top                  # running processes
+fuser [file]         # check which process uses file
+kill -9 [PID]        # kill process
+free                 # memory usage
+free -h              # memory (human readable)
+nohup [cmd] &        # run command in background
+vmstat               # system performance
+
+System Info & Package Management
+uname          # system info
+who            # logged-in users
+whoami         # current user
+which [cmd]    # command path
+sudo           # superuser privileges
+sudo shutdown  # shutdown
+sudo reboot    # reboot
+apt list       # list packages
+apt update     # update repo
+apt-get install docker.io
+apt remove docker.io
+which docker
+
+User & Group Management
+sudo useradd -m [user]           # add user
+sudo passwd [user]               # set password
+su [user]                        # switch user
+exit                             # logout
+cat /etc/passwd                  # list users
+sudo userdel [user]              # delete user
+sudo groupadd [group]            # create group
+cat /etc/group                   # view groups
+sudo gpasswd -a [user] [group]   # add user to group
+sudo gpasswd -M u1,u2 [group]    # add multiple users
+sudo groupdel [group]            # delete group
+
+File Permissions & Ownership
+ls -l                        # view permissions
+chmod [mode] [file]          # change permission
+umask                        # default permission mask
+sudo chown user file         # change ownership
+sudo chgrp group file        # change group ownership
+
+Compression & Archiving
+zip file.zip file      # zip
+unzip file.zip         # unzip
+tar -cvf f.tar f/      # create tar
+tar -xvf f.tar         # extract tar
